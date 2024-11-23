@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сучасні будинки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container" id="fade">
+            <h1 style="text-shadow: 1px 1px #ffe2e7; -webkit-text-stroke: 0.3px #ffe2e7; color: #265cf1;">Сучасні будинки</h1>
+            <p style="text-shadow: 0.3px 0.5px #ffe2e7; -webkit-text-stroke: 0.3px #ffe2e7;  color: #265cf1;">Як технології формують наше майбутнє</p>
+            <a href="#intro" class="btn">Дізнатися більше</a>
+        </div>
+        <div class="slider-controls">
+            <button id="prev" class="arrow">❮</button>
+            <button id="next" class="arrow">❯</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#intro">Про тему</a></li>
+            <li><a href="#articles">Новини</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="intro" class="section">
+            <div class="container" id="fade">
+                <h2>Про тему</h2>
+                <p>Розумні будинки стали реальністю. Від автоматизації освітлення до енергозберігаючих систем, сучасні технології змінюють вигляд наших осель.</p>
+                <img src="smart-home.jpg" alt="Розумний будинок">
+            </div>
+        </section>
+        <section id="articles" class="section">
+            <div class="container">
+                <h2>Останні новини</h2>
+                <div class="articles-grid">
+                    <article class="article">
+                        <h3>Переваги розумних будинків</h3>
+                        <p>Розумні пристрої полегшують життя, забезпечуючи автоматизацію та комфорт.</p>
+                    </article>
+                    <article class="article">
+                        <h3>Енергозберігаючі технології</h3>
+                        <p>Сучасні будинки використовують сонячну енергію та системи оптимізації енергоспоживання.</p>
+                    </article>
+                    <article class="article">
+                        <h3>Безпека у розумних будинках</h3>
+                        <p>Інноваційні системи безпеки дозволяють контролювати все за допомогою смартфона.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <button id="toggleButton" class="bottomMenu">Показати джерела інформації</button>
+                    <div id="info" class="hidden">
+                        <p>Це прихована інформація. Натисніть кнопку ще раз, щоб приховати її.</p>
+                    </div>
+                <!--   додатковий контейнер для інфи -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p style="color: azure;">© 2024 Сучасні будинки. Адміністратор сайту Богдана Рибак 2КН-24Б</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
